@@ -75,6 +75,7 @@ class Node2 {
     this.prevNode = prevNode;
   }
 }
+
 class DoublyLinkedList {
   constructor(firstNode = null, lastNode = null) {
     this.firstNode = firstNode;
@@ -113,14 +114,18 @@ class Queue {
     return this.queue.lastNode.data;
   }
 }
+
 let queue1 = new Queue();
+
 queue1.enque("1");
 queue1.enque("2");
 queue1.enque("33");
 console.log(queue1);
+
 queue1.deque();
 console.log(queue1);
 console.log(queue1.tail());
+
 export const LinkedLists = (
   <div>
     <div>{}</div>

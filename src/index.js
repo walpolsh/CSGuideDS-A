@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import "./styles.css";
 import { m } from "./HashTables";
 import { LinkedLists } from "./LinkedList";
+import { BinaryTrees } from "./BinaryTrees";
 function div(x) {
   return <div>{x}</div>;
 }
@@ -168,14 +169,14 @@ printer1.run();
 function App() {
   return (
     <div className="App">
+      <div>{BinaryTrees}</div>
+      <div>{LinkedLists}</div>
+      <div>{m}</div>
       <div>{linearSearch(arr, 8)}</div>
       <div>{linearSearch(arr, 3)}</div>
       <div>{binarySearch(arr, 3)}</div>
       <div>{binarySearch(arr, 4)}</div>
       <div>{bubbleSort(list).join(" ")}</div>
-      <div>{m}</div>
-      <div>{LinkedLists}</div>
-      <div>{}</div>
       <div>{}</div>
       <div>{}</div>
       <div>{}</div>
