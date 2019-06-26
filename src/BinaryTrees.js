@@ -14,7 +14,6 @@ let node4 = new TreeNode(
   new TreeNode(1),
   new TreeNode(5)
 );
-console.log(node4);
 const search2 = (
   value,
   node,

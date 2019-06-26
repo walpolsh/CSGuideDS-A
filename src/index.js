@@ -4,6 +4,8 @@ import "./styles.css";
 import { m } from "./HashTables";
 import { LinkedLists } from "./LinkedList";
 import { BinaryTrees } from "./BinaryTrees";
+import { Graphs } from "./Graphs";
+import { SpaceComplexity } from "./SpaceComplexity";
 function div(x) {
   return <div>{x}</div>;
 }
@@ -169,6 +171,12 @@ printer1.run();
 function App() {
   return (
     <div className="App">
+      <div>{}</div>
+      <div>{}</div>
+      <div>{}</div>
+      <div>{}</div>
+      <div>{SpaceComplexity}</div>
+      <div>{Graphs}</div>
       <div>{BinaryTrees}</div>
       <div>{LinkedLists}</div>
       <div>{m}</div>
@@ -177,11 +185,6 @@ function App() {
       <div>{binarySearch(arr, 3)}</div>
       <div>{binarySearch(arr, 4)}</div>
       <div>{bubbleSort(list).join(" ")}</div>
-      <div>{}</div>
-      <div>{}</div>
-      <div>{}</div>
-      <div>{}</div>
-      <div>{}</div>
       <div>{}</div>
       <div>{}</div>
       <div>{}</div>
